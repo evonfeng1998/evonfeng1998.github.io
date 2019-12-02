@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://evonfengblog/"/>
-  <updated>2019-12-02T10:25:29.749Z</updated>
+  <updated>2019-12-02T10:58:28.266Z</updated>
   <id>http://evonfengblog/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SpringBoot</title>
+    <title>赖宇浩是狗龟</title>
+    <link href="http://evonfengblog/2019/12/02/%E8%B5%96%E5%AE%87%E6%B5%A9%E6%98%AF%E7%8B%97%E9%BE%9F/"/>
+    <id>http://evonfengblog/2019/12/02/%E8%B5%96%E5%AE%87%E6%B5%A9%E6%98%AF%E7%8B%97%E9%BE%9F/</id>
+    <published>2019-12-02T10:55:35.155Z</published>
+    <updated>2019-12-02T10:58:28.266Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="赖宇浩是狗"><a href="#赖宇浩是狗" class="headerlink" title="赖宇浩是狗"></a>赖宇浩是狗</h1><p>赖宇浩是龟</p><h1 id="赖宇浩是龟"><a href="#赖宇浩是龟" class="headerlink" title="赖宇浩是龟"></a>赖宇浩是龟</h1><p>赖宇浩是龟</p><h1 id="赖宇浩儿子"><a href="#赖宇浩儿子" class="headerlink" title="赖宇浩儿子"></a>赖宇浩儿子</h1><p>赖宇浩儿子</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;赖宇浩是狗&quot;&gt;&lt;a href=&quot;#赖宇浩是狗&quot; class=&quot;headerlink&quot; title=&quot;赖宇浩是狗&quot;&gt;&lt;/a&gt;赖宇浩是狗&lt;/h1&gt;&lt;p&gt;赖宇浩是龟&lt;/p&gt;
+&lt;h1 id=&quot;赖宇浩是龟&quot;&gt;&lt;a href=&quot;#赖宇浩是龟&quot; class=&quot;headerlin
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>springboot</title>
     <link href="http://evonfengblog/2019/12/02/test/"/>
     <id>http://evonfengblog/2019/12/02/test/</id>
     <published>2019-12-02T10:10:17.107Z</published>
-    <updated>2019-12-02T10:25:29.749Z</updated>
+    <updated>2019-12-02T10:58:32.961Z</updated>
     
     <content type="html"><![CDATA[<h1 id="SpringBoot简介"><a href="#SpringBoot简介" class="headerlink" title="SpringBoot简介"></a>SpringBoot简介</h1><h2 id="1-1-原有Spring优缺点分析"><a href="#1-1-原有Spring优缺点分析" class="headerlink" title="1.1 原有Spring优缺点分析"></a>1.1 原有<strong>Spring</strong>优缺点分析</h2><h3 id="1-1-1-Spring的优点分析"><a href="#1-1-1-Spring的优点分析" class="headerlink" title="1.1.1 Spring的优点分析"></a>1.1.1 <strong>Spring</strong>的优点分析</h3><p>Spring是Java企业版（Java Enterprise Edition，JEE，也称J2EE）的轻量级代替品。⽆需开发重量级的 Enterprise JavaBean（EJB），Spring为企业级Java开发提供了⼀种相对简单的⽅法，通过依赖注⼊和 ⾯向切⾯编程，⽤简单的Java对象（Plain Old Java Object，POJO）实现了EJB的功能。</p><h3 id="1-1-2-Spring的缺点分析"><a href="#1-1-2-Spring的缺点分析" class="headerlink" title="1.1.2 Spring的缺点分析"></a>1.1.2 <strong>Spring</strong>的缺点分析</h3><p>虽然Spring的组件代码是轻量级的，但它的配置却是重量级的。⼀开始，Spring⽤XML配置，⽽且是很 多XML配置。Spring 2.5引⼊了基于注解的组件扫描，这消除了⼤量针对应⽤程序⾃身组件的显式XML 配置。Spring 3.0引⼊了基于Java的配置，这是⼀种类型安全的可重构配置⽅式，可以代替XML。 </p><p>所有这些配置都代表了开发时的损耗。因为在思考Spring特性配置和解决业务问题之间需要进⾏思维切 换，所以编写配置挤占了编写应⽤程序逻辑的时间。和所有框架⼀样，Spring实⽤，但与此同时它要求 的回报也不少。 </p><p>除此之外，项⽬的依赖管理也是⼀件耗时耗⼒的事情。在环境搭建时，需要分析要导⼊哪些库的坐标， ⽽且还需要分析导⼊与之有依赖关系的其他库的坐标，⼀旦选错了依赖的版本，随之⽽来的不兼容问题 就会严重阻碍项⽬的开发进度。</p><h2 id="1-2-SpringBoot的概述"><a href="#1-2-SpringBoot的概述" class="headerlink" title="1.2 SpringBoot的概述"></a>1.2 <strong>SpringBoot</strong>的概述</h2><h3 id="1-2-1-SpringBoot解决上述Spring的缺点"><a href="#1-2-1-SpringBoot解决上述Spring的缺点" class="headerlink" title="1.2.1 SpringBoot解决上述Spring的缺点"></a>1.2.1 <strong>SpringBoot</strong>解决上述<strong>Spring</strong>的缺点</h3><p>SpringBoot对上述Spring的缺点进⾏的改善和优化，基于约定优于配置的思想，可以让开发⼈员不必在 配置与逻辑业务之间进⾏思维的切换，全身⼼的投⼊到逻辑业务的代码编写中，从⽽⼤⼤提⾼了开发的 效率，⼀定程度上缩短了项⽬周期。</p><h3 id="1-2-2-SpringBoot的特点"><a href="#1-2-2-SpringBoot的特点" class="headerlink" title="1.2.2 SpringBoot的特点"></a>1.2.2 <strong>SpringBoot</strong>的特点</h3><ul><li><p>为基于Spring的开发提供更快的⼊⻔体验 </p></li><li><p>开箱即⽤，没有代码⽣成，也⽆需XML配置。同时也可以修改默认值来满⾜特定的需求 </p></li><li><p>提供了⼀些⼤型项⽬中常⻅的⾮功能性特性，如嵌⼊式服务器、安全、指标，健康检测、外部配置 等 </p></li><li><p>SpringBoot不是对Spring功能上的增强，⽽是提供了⼀种快速使⽤Spring的⽅式</p></li></ul><h3 id="1-2-3-SpringBoot的核⼼功能"><a href="#1-2-3-SpringBoot的核⼼功能" class="headerlink" title="1.2.3 SpringBoot的核⼼功能"></a>1.2.3 <strong>SpringBoot</strong>的核⼼功能</h3><ul><li><p>起步依赖</p><p>起步依赖本质上是⼀个Maven项⽬对象模型（Project Object Model，POM），定义了对其他库 的传递依赖，这些东⻄加在⼀起即⽀持某项功能。 </p><p>简单的说，起步依赖就是将具备某种功能的坐标打包到⼀起，并提供⼀些默认的功能。</p></li><li><p>自动配置</p><p>Spring Boot的⾃动配置是⼀个运⾏时（更准确地说，是应⽤程序启动时）的过程，考虑了众多因 素，才决定Spring配置应该⽤哪个，不该⽤哪个。该过程是Spring⾃动完成的。</p></li></ul>]]></content>
     
